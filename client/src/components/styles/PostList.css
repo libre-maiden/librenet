@@ -1,0 +1,8 @@
+.PostList {
+    width: 50%;
+    background-color: rgb(221, 209, 209);
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 16px;
+}
