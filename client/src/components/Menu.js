@@ -35,10 +35,10 @@ class Menu extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">Статьи</NavLink>
+                <NavLink href="/">Статьи</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">О нас</NavLink>
+                <NavLink href="/about">О проекте</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -52,7 +52,13 @@ class Menu extends Component {
                     Системное администрирование
                   </DropdownItem>
                   <DropdownItem>
-                    Информационная безопастность
+                    Информационная безопасность
+                  </DropdownItem>
+                  <DropdownItem>
+                    Linux
+                  </DropdownItem>
+                  <DropdownItem>
+                    BSD
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
