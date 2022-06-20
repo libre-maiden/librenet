@@ -1,0 +1,10 @@
+{
+  "name": "librenet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "libre-maiden <maiden@disroot.org>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
