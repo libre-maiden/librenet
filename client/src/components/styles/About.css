@@ -1,0 +1,13 @@
+.About{
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+}
